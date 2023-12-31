@@ -8,15 +8,9 @@ import { Navbar } from "./components";
 
 const NotFound = () => {
   return (
-      <section className={`relative w-full h-screen mx-auto`}>
-          <div
-              className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
-          >
-              <p className={`${styles.heroHeadText} mt-2 text-cyan-600`}> 404 </p>
-              <p className={`${styles.heroSubText} mt-2 text-white-100`}> oopsie you made a whoopsie </p>
-              
-          </div>
-      </section>
+    <section className={`relative w-full h-screen mx-auto`}>
+      <div className={`text-white content-center`}>TEST</div>
+    </section>
   );
 };
 

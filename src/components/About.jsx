@@ -49,14 +49,14 @@ const About = () => {
       >
         I'm a high school student from New Jersey. I'm passionate about
         programming and love to learn new things. This for example is my 
-        attempt at learning web development. 
+        attempt at learning web development.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
