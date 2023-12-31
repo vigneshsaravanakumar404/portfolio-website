@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -11,7 +11,7 @@ const NotFound = () => {
     <section className={`relative w-full h-screen mx-auto`}>
       <div className={`fourofourcenter`}>
         404 - page not found...
-        <p style={{fontSize:"30px"}}>try again?</p>
+        <p style={{fontSize:"2.61vw"}}>try again?</p>
       </div>
     </section>
   );
@@ -31,8 +31,4 @@ const Fourofour = () => {
   );
 };
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <Fourofour />
-  </React.StrictMode>
-);
+export default Fourofour;
