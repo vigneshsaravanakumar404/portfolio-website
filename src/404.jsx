@@ -9,7 +9,10 @@ import { Navbar } from "./components";
 const NotFound = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
-      <div className={`text-white content-center`}>TEST</div>
+      <div className={`fourofourcenter`}>
+        404 - page not found...
+        <p style={{fontSize:"30px"}}>try again?</p>
+      </div>
     </section>
   );
 };
