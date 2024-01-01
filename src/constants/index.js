@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -158,7 +154,7 @@ const technologies = [
 const experiences = [
   {
     title: "Intern",
-    company_name: "Starbucks",
+    company_name: "Tesla",
     icon: tesla,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",

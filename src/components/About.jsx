@@ -10,9 +10,9 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 //TODO: Tooltips for skills, tools, instiutions, etc.
+//TODO: Improve color scheme for Course Cards
 
 // CourseCard Component
-//TODO: Improve colro scheme
 const CourseCard = ({ index, courseName, description, icon, skills_icons }) => (
   <Tilt className='lg:w-1/3 md:w-1/2 sm:w-full px-2 my-2'>
     <motion.div
