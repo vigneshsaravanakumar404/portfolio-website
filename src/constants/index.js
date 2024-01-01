@@ -47,7 +47,8 @@ const courses = [
     description: "Introductory java programming course",
     languages_frameworks: ["Java"],
     instituion: ["South Brunswick High School"],
-    icon: "path/to/icon1.png"
+    icon: "src/assets/sbhs_logo.png",
+    skills_icons: ["icons/Java-Dark.svg" ]
   },
   {
     id: 2,
@@ -55,7 +56,9 @@ const courses = [
     description: "College Board's AP Computer Science A course",
     languages_frameworks: ["Java"],
     instituion: ["South Brunswick High School"],
-    icon: "path/to/icon2.png"
+    icon: "src/assets/sbhs_logo.png",
+    skills_icons: ["icons/Java-Dark.svg"]
+
   },
   {
     id: 3, 
@@ -63,7 +66,8 @@ const courses = [
     description: "Introductory mobile application development course",
     languages_frameworks: ["Java", "Android Studio", "IntelliJ", "Gradle"],
     instituion: ["South Brunswick High School", "Ramapo College of New Jersey"],
-    icon: "path/to/icon3.png"
+    icon: "src/assets/sbhs_logo.png",
+    skills_icons: ["icons/Java-Dark.svg", "icons/AndroidStudio-Dark.svg"]
   }, 
   {
     id: 4, 
@@ -71,7 +75,8 @@ const courses = [
     description: "Unity and game development course based in C#",
     languages_frameworks: ["C#", "Unity"],
     instituion: ["South Brunswick High School"],
-    icon: "path/to/icon4.png"
+    icon: "src/assets/sbhs_logo.png",
+    skills_icons: ["icons/CS.svg", "icons/Unity-Dark.svg"]
   }, 
   {
     id: 5,
@@ -79,15 +84,17 @@ const courses = [
     description: "Data structures and algorithms course",
     languages_frameworks: ["Java"],
     instituion: ["South Brunswick High School"],
-    icon: "path/to/icon5.png"
+    icon: "src/assets/sbhs_logo.png",
+    skills_icons: ["icons/Java-Dark.svg"]
   }, 
   {
     id: 6,
     courseName: "Computer Science Capstone",
     description: "An exploration of current technology trends and essential internship skills, covering topics from virtualization to web development, culminating in a significant computer science project.",
-    languages_frameworks: ["Java", "Python", "VMs", "Git", "Github", "C++"],
+    languages_frameworks: ["Java", "Python", "VMs", "Git", "Github", "C++", "Linux"],
     institution: ["South Brunswick High School"],
-    icon: "path/to/icon5.png"
+    icon: "src/assets/sbhs_logo.png",
+    skills_icons: ["icons/Java-Dark.svg", "icons/Python-Dark.svg", "icons/Git.svg", "icons/Github-Dark.svg", "icons/CPP.svg", "icons/Linux-Dark.svg"]
   }
   
 ];
@@ -296,4 +303,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { courses, technologies, experiences, testimonials, projects };
