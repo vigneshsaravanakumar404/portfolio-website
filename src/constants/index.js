@@ -63,7 +63,7 @@ const courses = [
   {
     id: 3, 
     courseName: "Mobile Application Development",
-    description: "Introductory mobile application development course",
+    description: "Android app development using Java and Android Studio. Firebase, Google Maps API, and other libraries are also used.",
     languages_frameworks: ["Java", "Android Studio", "IntelliJ", "Gradle"],
     instituion: ["South Brunswick High School", "Ramapo College of New Jersey"],
     icon: "src/assets/sbhs_logo.png",
@@ -72,7 +72,7 @@ const courses = [
   {
     id: 4, 
     courseName: "Virtual Reality & Game Design",
-    description: "Unity and game development course based in C#",
+    description: "Unity 2D and 3D games, cross-platform games, physics, animation, and networking rooted in C#",
     languages_frameworks: ["C#", "Unity"],
     instituion: ["South Brunswick High School"],
     icon: "src/assets/sbhs_logo.png",
@@ -81,7 +81,7 @@ const courses = [
   {
     id: 5,
     courseName: "Data Structures",
-    description: "Data structures and algorithms course",
+    description: "Formal and more in-depth study of algorithms, data structures, and data abstraction",
     languages_frameworks: ["Java"],
     instituion: ["South Brunswick High School"],
     icon: "src/assets/sbhs_logo.png",
@@ -90,7 +90,7 @@ const courses = [
   {
     id: 6,
     courseName: "Computer Science Capstone",
-    description: "An exploration of current technology trends and essential internship skills, covering topics from virtualization to web development, culminating in a significant computer science project.",
+    description: "An exploration of current technology trends and essential internship skills, covering topics from virtualization to web development",
     languages_frameworks: ["Java", "Python", "VMs", "Git", "Github", "C++", "Linux"],
     institution: ["South Brunswick High School"],
     icon: "src/assets/sbhs_logo.png",
@@ -157,150 +157,45 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Intern",
     company_name: "Starbucks",
-    icon: starbucks,
+    icon: tesla,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod",
+      "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
     ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  }
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+        icon: reactjs,
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
+        icon: mongodb,
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
+        icon: tailwind,
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  }
 ];
 
-export { courses, technologies, experiences, testimonials, projects };
+export { courses, technologies, experiences, projects };

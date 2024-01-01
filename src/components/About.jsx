@@ -20,7 +20,7 @@ const CourseCard = ({ index, courseName, description, icon, skills_icons }) => (
       className='p-[2px] rounded-[15px] shadow-lg'
       style={{ background: 'linear-gradient(135deg, #0F9B0F 0%, #012F2D 100%)' }}
     >
-      <div className='bg-[#012F2D] rounded-[15px] py-6 px-8 min-h-[300px] flex flex-col justify-between'>
+      <div className='bg-[#012F2D] rounded-[15px] py-6 px-8 min-h-[350px] flex flex-col justify-between'>
         <div className='flex items-center space-x-4'>
           <img src={icon} alt={courseName} className='w-12 h-12 object-contain' />
           <h3 className='text-[#01FF70] text-[22px] font-semibold'>{courseName}</h3>
