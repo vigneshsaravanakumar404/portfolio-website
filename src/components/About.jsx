@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 // CourseCard Component
 const CourseCard = ({ index, courseName, description, icon, skills_icons }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt className='w-1/3 px-2 my-2'>
     <motion.div
       variants={fadeIn("up", "easeInOut", index * 0.3, 1)}
       className='w-full bg-[#012F2D] p-[2px] rounded-[15px] shadow-lg'
@@ -36,11 +36,13 @@ const CourseCard = ({ index, courseName, description, icon, skills_icons }) => (
 const About = () => {
   return (
     <>
+      {/* Header */}  
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Who I am</p>
         <h2 className={styles.sectionHeadText}>About</h2>
       </motion.div>
 
+      {/* Description */}  
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
@@ -50,20 +52,11 @@ const About = () => {
         learning React and Three.js.
       </motion.p>
 
+      {/* Courses */}
       <motion.div variants={textVariant()}>
         <h3 className={styles.sectionHeadText}>Courses</h3>
       </motion.div>
-
-      <motion.div variants={textVariant()}>
-        <h6 className={styles.sectionHeadText}>Skills</h6>
-      </motion.div>
-
-      <motion.div variants={textVariant()}>
-        <h6 className={styles.sectionHeadText}>Tools & Frameworks</h6>
-        {/* Tools/Frameworks content */}
-      </motion.div>
-
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='flex flex-wrap justify-center mt-20'>
         {courses.map((course, index) => (
           <CourseCard
             key={course.id}
@@ -75,6 +68,17 @@ const About = () => {
           />
         ))}
       </div>
+
+      {/* Skills */}
+      <motion.div variants={textVariant()}>
+        <h6 className={styles.sectionHeadText}>Skills</h6>
+      </motion.div>
+        
+
+      {/* Tools & Frameworks */}
+      <motion.div variants={textVariant()}>
+        <h6 className={styles.sectionHeadText}>Tools & Frameworks</h6>
+      </motion.div>
 
     </>
   );
