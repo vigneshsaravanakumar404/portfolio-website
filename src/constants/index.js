@@ -1,25 +1,3 @@
-import {
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
 
 export const navLinks = [
   {
@@ -95,67 +73,11 @@ const courses = [
   
 ];
 
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
 const experiences = [
   {
     title: "Intern",
     company_name: "Tesla",
-    icon: tesla,
+    icon: "icons/CSS.svg",
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -176,22 +98,22 @@ const projects = [
       {
         name: "react",
         color: "blue-text-gradient",
-        icon: reactjs,
+        icon: "icons/React-Dark.svg",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
-        icon: mongodb,
+        icon: "icons/MongoDB-Dark.svg",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
-        icon: tailwind,
+        icon: "icons/Tailwind-Dark.svg",
       },
     ],
-    image: carrent,
+    image: "icons/CSS.svg",
     source_code_link: "https://github.com/",
   }
 ];
 
-export { courses, technologies, experiences, projects };
+export { courses, experiences, projects };
