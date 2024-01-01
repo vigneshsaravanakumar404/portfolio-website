@@ -12,6 +12,8 @@ const styles = {
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+    subsectionHeadText:
+    "font-semibold text-[#4A5568] lg:text-[24px] sm:text-[22px] xs:text-[20px] text-[18px] leading-[32px]",  
 };
 
 export { styles };

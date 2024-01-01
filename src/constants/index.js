@@ -32,7 +32,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experiences",
   },
   {
     id: "contact",
@@ -40,24 +40,58 @@ export const navLinks = [
   },
 ];
 
-const services = [
+const courses = [
   {
-    title: "Web Developer",
-    icon: web,
+    id: 1,
+    courseName: "Computer Science in the 21st century",
+    description: "Introductory java programming course",
+    languages_frameworks: ["Java"],
+    instituion: ["South Brunswick High School"],
+    icon: "path/to/icon1.png"
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    id: 2,
+    courseName: "AP Computer Science A",
+    description: "College Board's AP Computer Science A course",
+    languages_frameworks: ["Java"],
+    instituion: ["South Brunswick High School"],
+    icon: "path/to/icon2.png"
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
+    id: 3, 
+    courseName: "Mobile Application Development",
+    description: "Introductory mobile application development course",
+    languages_frameworks: ["Java", "Android Studio", "IntelliJ", "Gradle"],
+    instituion: ["South Brunswick High School", "Ramapo College of New Jersey"],
+    icon: "path/to/icon3.png"
+  }, 
   {
-    title: "Content Creator",
-    icon: creator,
-  },
+    id: 4, 
+    courseName: "Virtual Reality & Game Design",
+    description: "Unity and game development course based in C#",
+    languages_frameworks: ["C#", "Unity"],
+    instituion: ["South Brunswick High School"],
+    icon: "path/to/icon4.png"
+  }, 
+  {
+    id: 5,
+    courseName: "Data Structures",
+    description: "Data structures and algorithms course",
+    languages_frameworks: ["Java"],
+    instituion: ["South Brunswick High School"],
+    icon: "path/to/icon5.png"
+  }, 
+  {
+    id: 6,
+    courseName: "Computer Science Capstone",
+    description: "An exploration of current technology trends and essential internship skills, covering topics from virtualization to web development, culminating in a significant computer science project.",
+    languages_frameworks: ["Java", "Python", "VMs", "Git", "Github", "C++"],
+    institution: ["South Brunswick High School"],
+    icon: "path/to/icon5.png"
+  }
+  
 ];
+
 
 const technologies = [
   {

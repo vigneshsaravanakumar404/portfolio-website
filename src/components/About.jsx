@@ -7,50 +7,63 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
+const CourseCard = ({ index, courseName, description, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      variants={fadeIn("up", "easeInOut", index * 0.3, 1)}
+      className='w-full bg-[#012F2D] p-[2px] rounded-[15px] shadow-lg'
     >
       <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-[#004D40] rounded-[15px] py-6 px-8 min-h-[320px] flex flex-col justify-between'
       >
-        <img
-          src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
-        />
-
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
-        </h3>
+        <div className='flex items-center space-x-4'>
+          <img
+            src={icon}
+            alt={courseName}
+            className='w-12 h-12 object-contain'
+          />
+          <h3 className='text-[#01FF70] text-[22px] font-semibold'>
+            {courseName}
+          </h3>
+        </div>
+        <p className='text-white text-[16px] mt-4'>
+          {description}
+        </p>
       </div>
     </motion.div>
   </Tilt>
 );
 
+
 const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>Who I am</p>
+        <h2 className={styles.sectionHeadText}>About</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a high school student from New Jersey. I'm passionate about
-        programming and love to learn new things. This for example is my 
-        attempt at learning web development.
+        I'm a high school student from New Jersey. I'm passionate about programming and I love to learn new things.
+        I mostly code in Python and Java but I'm always open to learning new languages. This website is my attempt at
+        learning React and Three.js.
       </motion.p>
+
+      <motion.div variants={textVariant()}>
+        <h3 className={styles.sectionHeadText}>Courses</h3>
+      </motion.div>
+
+      <motion.div variants={textVariant()}>
+        <h6 className={styles.sectionHeadText}>Skills</h6>
+      </motion.div>
+
+      <motion.div variants={textVariant()}>
+        <h6 className={styles.sectionHeadText}>Tools & Frameworks</h6>
+        {/* Tools/Frameworks content */}
+      </motion.div>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
