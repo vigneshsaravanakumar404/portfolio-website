@@ -16,4 +16,11 @@ const styles = {
     "font-semibold text-[#4A5568] lg:text-[24px] sm:text-[22px] xs:text-[20px] text-[18px] leading-[32px]",  
 };
 
-export { styles };
+const gradients = {
+  GreenBlue: "from-green-400 to-blue-500",
+  WebDevelopment: "from-purple-400 to-pink-500",
+  background: 'radial-gradient(circle, rgba(47, 253, 0, 1) 0%, rgba(0, 0, 0, 1) 100%)'
+};
+
+
+export { styles, gradients };
