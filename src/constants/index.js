@@ -1,4 +1,3 @@
-
 export const navLinks = [
   {
     id: "about",
@@ -21,7 +20,7 @@ const courses = [
     description: "Introductory java programming course",
     languages_frameworks: ["Java"],
     instituion: ["South Brunswick High School"],
-    icon: "src/assets/sbhs_logo.png",
+    icon: "sbhs_logo.png",
     skills_icons: ["icons/Java-Dark.svg"]
   },
   {
@@ -30,7 +29,7 @@ const courses = [
     description: "College Board's AP Computer Science A course",
     languages_frameworks: ["Java"],
     instituion: ["South Brunswick High School"],
-    icon: "src/assets/sbhs_logo.png",
+    icon: "sbhs_logo.png",
     skills_icons: ["icons/Java-Dark.svg"]
 
   },
@@ -40,7 +39,7 @@ const courses = [
     description: "Android app development using Java and Android Studio. Firebase, Google Maps API, and other libraries are also used.",
     languages_frameworks: ["Java", "Android Studio", "IntelliJ", "Gradle"],
     instituion: ["South Brunswick High School", "Ramapo College of New Jersey"],
-    icon: "src/assets/sbhs_logo.png",
+    icon: "sbhs_logo.png",
     skills_icons: ["icons/Java-Dark.svg", "icons/AndroidStudio-Dark.svg"]
   },
   {
@@ -49,7 +48,7 @@ const courses = [
     description: "Unity 2D and 3D games, cross-platform games, physics, animation, and networking rooted in C#",
     languages_frameworks: ["C#", "Unity"],
     instituion: ["South Brunswick High School"],
-    icon: "src/assets/sbhs_logo.png",
+    icon: "sbhs_logo.png",
     skills_icons: ["icons/CS.svg", "icons/Unity-Dark.svg"]
   },
   {
@@ -58,7 +57,7 @@ const courses = [
     description: "Formal and more in-depth study of algorithms, data structures, and data abstraction",
     languages_frameworks: ["Java"],
     instituion: ["South Brunswick High School"],
-    icon: "src/assets/sbhs_logo.png",
+    icon: "sbhs_logo.png",
     skills_icons: ["icons/Java-Dark.svg"]
   },
   {
@@ -67,7 +66,7 @@ const courses = [
     description: "An exploration of current technology trends and essential internship skills, covering topics from virtualization to web development",
     languages_frameworks: ["Java", "Python", "VMs", "Git", "Github", "C++", "Linux"],
     institution: ["South Brunswick High School"],
-    icon: "src/assets/sbhs_logo.png",
+    icon: "sbhs_logo.png",
     skills_icons: ["icons/Java-Dark.svg", "icons/Python-Dark.svg", "icons/Git.svg", "icons/Github-Dark.svg", "icons/CPP.svg", "icons/Linux-Dark.svg"]
   }
 
