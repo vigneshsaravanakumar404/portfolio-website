@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import resumePDF from './assets/[Vignesh] Resume.pdf'; // Adjust the path as needed
+import resumePDF from '../public/assets/[Vignesh] Resume.pdf'; // Adjust the path as needed
 
 
 const PdfViewer = () => {
