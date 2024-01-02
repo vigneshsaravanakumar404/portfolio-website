@@ -7,10 +7,6 @@ export const navLinks = [
     id: "work",
     title: "Experiences",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
 ];
 
 const courses = [
@@ -122,5 +118,6 @@ const socials = [
   { name: "Email", icon: "icons/email.svg", link: "mailto: vignesh.saravanakumar.vs@gmail.com" }
 ];
 
+const description = "I'm a high school student from New Jersey. I'm passionate about programming and I love to learn new things. I mostly code in Python and Java but I'm always open to learning new languages. This website is my attempt at learning React and Three.js.";
 
-export { courses, experiences, projects, socials };
+export { courses, experiences, projects, socials, description };

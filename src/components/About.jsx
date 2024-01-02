@@ -3,7 +3,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { courses } from "../constants";
+import { courses, description } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -37,7 +37,6 @@ const CourseCard = ({ index, courseName, description, icon, skills_icons }) => (
 );
 
 
-
 // About Section
 const About = () => {
   return (
@@ -53,15 +52,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a high school student from New Jersey. I'm passionate about programming and I love to learn new things.
-        I mostly code in Python and Java but I'm always open to learning new languages. This website is my attempt at
-        learning React and Three.js. Here are some of the courses I've taken, the skills I have developed and the tools
-        I have used.
+        {description}
       </motion.p>
 
       {/* Courses */}
       <motion.div variants={textVariant()}>
         <h3 className={styles.sectionHeadText}>Courses</h3>
+        <p
+          className='mt-4 text-secondary'
+        >
+          Hello</p>
       </motion.div>
       <div className='flex flex-wrap justify-center mt-5'>
         {courses.map((course, index) => (
@@ -76,15 +76,10 @@ const About = () => {
         ))}
       </div>
 
-      {/* Skills */}
+
+      {/* //TODO: Skills */}
       <motion.div variants={textVariant()}>
         <h6 className={styles.sectionHeadText}>Skills</h6>
-      </motion.div>
-
-
-      {/* Tools & Frameworks */}
-      <motion.div variants={textVariant()}>
-        <h6 className={styles.sectionHeadText}>Tools & Frameworks</h6>
       </motion.div>
 
     </>

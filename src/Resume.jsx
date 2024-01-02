@@ -3,7 +3,7 @@ import "./index.css";
 import { Footer, Navbar } from "./components";
 
 const Resume = () => {
-    const resumePath = "src/assets/[Vignesh] Resume.pdf"; // Replace with the actual URL to your resume PDF
+    const resumePath = "src/assets/[Vignesh] Resume.pdf";
 
     useEffect(() => {
         document.title = "Vignesh | Resume";

@@ -1,4 +1,4 @@
-import { About, Contact, Experience, Hero, Navbar, Works, StarsCanvas, Footer } from "./components";
+import { About, Experience, Hero, Navbar, Works, StarsCanvas, Footer, EarthCanvas } from "./components";
 import React, { useEffect } from 'react';
 
 const App = () => {
@@ -17,8 +17,10 @@ const App = () => {
       <Experience />
       <Works />
       <div className='relative z-0'>
-        <Contact />
         <StarsCanvas />
+      </div>
+      <div>
+      <EarthCanvas />
       </div>
       <Footer />
     </div>
