@@ -1,6 +1,12 @@
 import { About, Contact, Experience, Hero, Navbar, Works, StarsCanvas } from "./components";
+import React, { useEffect } from 'react';
 
 const App = () => {
+  
+  useEffect(() => {
+    document.title = "Vignesh | Portfolio";
+  }, []);
+
   return (
       <div className='relative z-0 bg-primary'>
         <div className='bg-cover bg-no-repeat bg-center'>
