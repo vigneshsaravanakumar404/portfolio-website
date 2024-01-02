@@ -7,7 +7,7 @@ import Resume from "./Resume";
 import PdfViewer from "./PdfViewer"; // Import the new component
 import "./index.css";
 
-{ /* Test Commit */}
+{ /* Test Commit */ }
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>

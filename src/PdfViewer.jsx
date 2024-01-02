@@ -3,11 +3,11 @@ import resumePDF from './assets/[Vignesh] Resume.pdf'; // Adjust the path as nee
 
 
 const PdfViewer = () => {
-  
+
   useEffect(() => {
     document.title = "Vignesh | PDF Viewer";
   }, []);
-  
+
   return (
 
     <div style={{ height: '100vh', width: '100vw' }}>

@@ -21,13 +21,13 @@ const Footer = () => {
                                 className='h-12 w-12'
                                 onClick={() => {
                                     window.open(social.link, "_blank");
-                                 }}
+                                }}
                             />
                         </a>
                     </div>
                 ))}
             </div>
-            <br />          
+            <br />
             <p className='text-secondary text-white'
                 style={{ textAlign: 'center' }}
             >

@@ -20,7 +20,7 @@ const courses = [
     description: "Introductory java programming course",
     languages_frameworks: ["Java"],
     instituion: ["South Brunswick High School"],
-    icon: "sbhs_logo.png", 
+    icon: "sbhs_logo.png",
     skills_icons: ["icons/Java-Dark.svg"]
   },
   {
@@ -116,9 +116,9 @@ const projects = [
 ];
 
 const socials = [
-  { name: "Instagram", icon: "icons/instagramlogo.svg", link: "https://www.instagram.com/saravanakumarvignesh/" }, 
-  { name: "LinkedIn", icon: "icons/linkedinlogo.svg", link: "https://www.linkedin.com/in/vignesh-saravanakumar-435378240/" }, 
-  { name: "GitHub", icon: "icons/githublogo.svg", link: "https://github.com/vigneshsaravanakumar404" }, 
+  { name: "Instagram", icon: "icons/instagramlogo.svg", link: "https://www.instagram.com/saravanakumarvignesh/" },
+  { name: "LinkedIn", icon: "icons/linkedinlogo.svg", link: "https://www.linkedin.com/in/vignesh-saravanakumar-435378240/" },
+  { name: "GitHub", icon: "icons/githublogo.svg", link: "https://github.com/vigneshsaravanakumar404" },
   { name: "Email", icon: "icons/email.svg", link: "mailto: vignesh.saravanakumar.vs@gmail.com" }
 ];
 
