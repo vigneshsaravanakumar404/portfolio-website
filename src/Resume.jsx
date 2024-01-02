@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./index.css";
-import { Navbar } from "./components";
+import { Footer, Navbar } from "./components";
 
 const Resume = () => {
     const resumePath = "src/assets/[Vignesh] Resume.pdf"; // Replace with the actual URL to your resume PDF
@@ -54,6 +54,7 @@ const Resume = () => {
                     </object>
                 </section>
             </div>
+            <Footer />
         </div>
     );
 };
