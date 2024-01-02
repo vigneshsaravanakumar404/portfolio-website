@@ -1,5 +1,6 @@
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { taglines } from "../constants";
 
 const Hero = () => {
   return (
@@ -17,8 +18,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#01FF70]'>Vignesh</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm an aspiring programmer <br className='sm:block hidden' />
-            from New Jersey.
+            {taglines.one} <br className='sm:block hidden' />
+            {taglines.two} <br className='sm:block hidden' />
           </p>
         </div>
       </div>

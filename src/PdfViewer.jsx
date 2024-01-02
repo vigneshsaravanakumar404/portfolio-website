@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import resumePDF from '/assets/[Vignesh] Resume.pdf'; // Adjust the path as needed
+import { resumePath } from './constants';
 
 
 const PdfViewer = () => {
@@ -12,12 +12,12 @@ const PdfViewer = () => {
 
     <div style={{ height: '100vh', width: '100vw' }}>
       <object
-        data={resumePDF}
+        data={resumePath}
         type="application/pdf"
         style={{ width: '100%', height: '100%' }}
         aria-label="PDF Resume"
       >
-        <embed src={resumePDF} type="application/pdf" />
+        <embed src={resumePath} type="application/pdf" />
       </object>
     </div>
   );

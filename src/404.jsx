@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import "./index.css";
 import { Navbar, Footer } from "./components";
+
 //TODO: replace navbar so it actually works
 
 const NotFound = () => {

@@ -4,10 +4,9 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import App from "./App";
 import Fourofour from "./404";
 import Resume from "./Resume";
-import PdfViewer from "./PdfViewer"; // Import the new component
+import PdfViewer from "./PdfViewer";
 import "./index.css";
 
-{ /* Test Commit */ }
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>

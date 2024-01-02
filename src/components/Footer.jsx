@@ -1,4 +1,5 @@
 import { socials } from "../constants";
+import { copyright } from "../constants";
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -31,7 +32,7 @@ const Footer = () => {
             <p className='text-secondary text-white'
                 style={{ textAlign: 'center' }}
             >
-                {`Copyright © Vignesh Saravanakumar ${year}`}
+                {copyright}
             </p>
 
         </footer>

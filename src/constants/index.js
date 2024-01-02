@@ -119,5 +119,9 @@ const socials = [
 ];
 
 const description = "I'm a high school student from New Jersey. I'm passionate about programming and I love to learn new things. I mostly code in Python and Java but I'm always open to learning new languages. This website is my attempt at learning React and Three.js.";
+const resumePath = "/assets/[Vignesh] Resume.pdf";
+const PDFViewerURL = "/resume/Resume.pdf";
+const taglines = {one: "I'm an aspiring programmer", two: "from New Jersey."};
+const copyright = `Copyright © Vignesh Saravanakumar ${new Date().getFullYear()}`;
 
-export { courses, experiences, projects, socials, description };
+export { courses, experiences, projects, socials, description, resumePath, PDFViewerURL, taglines, copyright };
