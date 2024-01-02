@@ -20,7 +20,7 @@ const courses = [
     description: "Introductory java programming course",
     languages_frameworks: ["Java"],
     instituion: ["South Brunswick High School"],
-    icon: "sbhs_logo.png",
+    icon: "sbhs_logo.png", 
     skills_icons: ["icons/Java-Dark.svg"]
   },
   {
