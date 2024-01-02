@@ -2,6 +2,10 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { taglines } from "../constants";
 
+/**
+ * Renders the Hero section of the website.
+ * @returns {JSX.Element} The Hero component.
+ */
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>

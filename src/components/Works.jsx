@@ -10,6 +10,18 @@ import { fadeIn, textVariant } from "../utils/motion";
 // TODO: Switch to constats/index.js
 import { github } from "../assets";
 
+/**
+ * Renders a project card component.
+ *
+ * @param {Object} props - The props for the ProjectCard component.
+ * @param {number} props.index - The index of the project card.
+ * @param {string} props.name - The name of the project.
+ * @param {string} props.description - The description of the project.
+ * @param {Array} props.tags - The tags associated with the project.
+ * @param {string} props.image - The image URL of the project.
+ * @param {string} props.source_code_link - The source code link of the project.
+ * @returns {JSX.Element} The rendered ProjectCard component.
+ */
 const ProjectCard = ({
   index,
   name,
@@ -69,6 +81,11 @@ const ProjectCard = ({
   );
 };
 
+/**
+ * Renders the Works component.
+ * 
+ * @returns {JSX.Element} The rendered Works component.
+ */
 const Works = () => {
   return (
     <>

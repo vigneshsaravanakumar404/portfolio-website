@@ -1,6 +1,11 @@
 import { About, Experience, Hero, Navbar, Works, StarsCanvas, Footer, EarthCanvas } from "./components";
 import React, { useEffect } from 'react';
 
+/**
+ * The main component of the portfolio website.
+ *
+ * @returns {JSX.Element} The rendered App component.
+ */
 const App = () => {
 
   useEffect(() => {

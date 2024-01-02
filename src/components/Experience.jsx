@@ -9,6 +9,19 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+/**
+ * Renders a card component for displaying experience details.
+ *
+ * @param {Object} props - The props object containing the experience data.
+ * @param {Object} props.experience - The experience object containing the details of the experience.
+ * @param {string} props.experience.date - The date of the experience.
+ * @param {string} props.experience.iconBg - The background color of the experience icon.
+ * @param {string} props.experience.icon - The URL of the experience icon image.
+ * @param {string} props.experience.company_name - The name of the company.
+ * @param {string} props.experience.title - The title of the experience.
+ * @param {string[]} props.experience.points - The list of points describing the experience.
+ * @returns {JSX.Element} The rendered ExperienceCard component.
+ */
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -53,6 +66,10 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
+/**
+ * Renders the Experience component.
+ * @returns {JSX.Element} The rendered Experience component.
+ */
 const Experience = () => {
   return (
     <>

@@ -12,7 +12,18 @@ import { fadeIn, textVariant } from "../utils/motion";
 //TODO: Tooltips for skills, tools, instiutions, etc.
 //TODO: Improve color scheme for Course Cards
 
-// CourseCard Component
+/**
+ * Represents a Course Card component.
+ *
+ * @component
+ * @param {Object} props - The properties of the CourseCard component.
+ * @param {number} props.index - The index of the course card.
+ * @param {string} props.courseName - The name of the course.
+ * @param {string} props.description - The description of the course.
+ * @param {string} props.icon - The URL of the course icon.
+ * @param {string[]} props.skills_icons - An array of URLs for skill icons related to the course.
+ * @returns {JSX.Element} The CourseCard component.
+ */
 const CourseCard = ({ index, courseName, description, icon, skills_icons }) => (
   <Tilt className='lg:w-1/3 md:w-1/2 sm:w-full px-2 my-2'>
     <motion.div
@@ -37,7 +48,10 @@ const CourseCard = ({ index, courseName, description, icon, skills_icons }) => (
 );
 
 
-// About Section
+/**
+ * Renders the About component.
+ * @returns {JSX.Element} The rendered About component.
+ */
 const About = () => {
   return (
     <>

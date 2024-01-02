@@ -16,6 +16,10 @@ const NotFound = () => {
 };
 
 
+/**
+ * Renders the 404 page component.
+ * @returns {JSX.Element} The 404 page component.
+ */
 const Fourofour = () => {
   useEffect(() => {
     document.title = "Vignesh | 404";

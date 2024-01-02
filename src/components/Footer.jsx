@@ -1,6 +1,10 @@
 import { socials } from "../constants";
 import { copyright } from "../constants";
 
+/**
+ * Footer component.
+ * @returns {JSX.Element} The rendered Footer component.
+ */
 const Footer = () => {
     const year = new Date().getFullYear();
 

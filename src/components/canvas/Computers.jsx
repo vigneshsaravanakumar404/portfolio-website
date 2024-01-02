@@ -4,6 +4,12 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
+/**
+ * Renders a 3D computer model in the canvas.
+ * @param {Object} props - The component props.
+ * @param {boolean} props.isMobile - Indicates if the device is a mobile device.
+ * @returns {JSX.Element} The rendered component.
+ */
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/computer.gltf");
 
@@ -29,6 +35,10 @@ const Computers = ({ isMobile }) => {
   );
 };
 
+/**
+ * Renders the ComputersCanvas component.
+ * @returns {JSX.Element} The rendered component.
+ */
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 

@@ -4,6 +4,11 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
+/**
+ * Renders a 3D model of the Earth.
+ *
+ * @returns {JSX.Element} The Earth component.
+ */
 const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
 
@@ -12,6 +17,10 @@ const Earth = () => {
   );
 };
 
+/**
+ * Renders a canvas component with a 3D Earth model.
+ * @returns {JSX.Element} The EarthCanvas component.
+ */
 const EarthCanvas = () => {
   return (
     <Canvas

@@ -3,6 +3,11 @@ import "./index.css";
 import { Footer, Navbar } from "./components";
 import { resumePath, PDFViewerURL } from "./constants";
 
+/**
+ * Renders the Resume component.
+ * 
+ * @returns {JSX.Element} The rendered Resume component.
+ */
 const Resume = () => {
 
 

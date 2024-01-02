@@ -1,5 +1,9 @@
 import { Html, useProgress } from "@react-three/drei";
 
+/**
+ * Renders a canvas loader component.
+ * @returns {JSX.Element} The canvas loader component.
+ */
 const CanvasLoader = () => {
   const { progress } = useProgress();
   return (

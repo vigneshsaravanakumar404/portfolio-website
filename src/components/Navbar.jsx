@@ -5,6 +5,10 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+/**
+ * Represents a navigation bar component.
+ * @returns {JSX.Element} The JSX element representing the navigation bar.
+ */
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);

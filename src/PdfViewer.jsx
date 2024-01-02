@@ -2,6 +2,12 @@ import React, { useEffect } from 'react';
 import { resumePath } from './constants';
 
 
+/**
+ * Renders a PDF viewer component.
+ *
+ * @component
+ * @returns {JSX.Element} The PDF viewer component.
+ */
 const PdfViewer = () => {
 
   useEffect(() => {

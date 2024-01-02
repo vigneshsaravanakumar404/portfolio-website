@@ -3,6 +3,13 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 
+/**
+ * Renders a group of stars in a 3D canvas.
+ *
+ * @component
+ * @param {Object} props - The component props.
+ * @returns {JSX.Element} The rendered component.
+ */
 const Stars = (props) => {
   const ref = useRef();
   const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 1.2 }));
@@ -27,6 +34,10 @@ const Stars = (props) => {
   );
 };
 
+/**
+ * Renders a canvas component with stars.
+ * @returns {JSX.Element} The StarsCanvas component.
+ */
 const StarsCanvas = () => {
   return (
     <div className='w-full h-auto absolute inset-0 z-[-1]'>
