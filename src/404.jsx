@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import "./index.css";
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 //TODO: replace navbar so it actually works
 
 const NotFound = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
-      <div className={`fourofourcenter`}>
+      <div className={`fourofourcenter`} style={{ color: "white" }}>
         404 - page not found...
         <p style={{ fontSize: "2.61vw" }}>try again?</p>
       </div>
@@ -26,6 +26,7 @@ const Fourofour = () => {
         <Navbar />
         <NotFound />
       </div>
+      <Footer />
     </div>
   );
 };

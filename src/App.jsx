@@ -1,4 +1,4 @@
-import { About, Contact, Experience, Hero, Navbar, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Hero, Navbar, Works, StarsCanvas, Footer } from "./components";
 import React, { useEffect } from 'react';
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer />
       </div>
   );
 }

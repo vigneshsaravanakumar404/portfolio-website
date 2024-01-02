@@ -22,7 +22,7 @@ const courses = [
     languages_frameworks: ["Java"],
     instituion: ["South Brunswick High School"],
     icon: "src/assets/sbhs_logo.png",
-    skills_icons: ["icons/Java-Dark.svg" ]
+    skills_icons: ["icons/Java-Dark.svg"]
   },
   {
     id: 2,
@@ -35,23 +35,23 @@ const courses = [
 
   },
   {
-    id: 3, 
+    id: 3,
     courseName: "Mobile Application Development",
     description: "Android app development using Java and Android Studio. Firebase, Google Maps API, and other libraries are also used.",
     languages_frameworks: ["Java", "Android Studio", "IntelliJ", "Gradle"],
     instituion: ["South Brunswick High School", "Ramapo College of New Jersey"],
     icon: "src/assets/sbhs_logo.png",
     skills_icons: ["icons/Java-Dark.svg", "icons/AndroidStudio-Dark.svg"]
-  }, 
+  },
   {
-    id: 4, 
+    id: 4,
     courseName: "Virtual Reality & Game Design",
     description: "Unity 2D and 3D games, cross-platform games, physics, animation, and networking rooted in C#",
     languages_frameworks: ["C#", "Unity"],
     instituion: ["South Brunswick High School"],
     icon: "src/assets/sbhs_logo.png",
     skills_icons: ["icons/CS.svg", "icons/Unity-Dark.svg"]
-  }, 
+  },
   {
     id: 5,
     courseName: "Data Structures",
@@ -60,7 +60,7 @@ const courses = [
     instituion: ["South Brunswick High School"],
     icon: "src/assets/sbhs_logo.png",
     skills_icons: ["icons/Java-Dark.svg"]
-  }, 
+  },
   {
     id: 6,
     courseName: "Computer Science Capstone",
@@ -70,7 +70,7 @@ const courses = [
     icon: "src/assets/sbhs_logo.png",
     skills_icons: ["icons/Java-Dark.svg", "icons/Python-Dark.svg", "icons/Git.svg", "icons/Github-Dark.svg", "icons/CPP.svg", "icons/Linux-Dark.svg"]
   }
-  
+
 ];
 
 const experiences = [
@@ -116,4 +116,12 @@ const projects = [
   }
 ];
 
-export { courses, experiences, projects };
+const socials = [
+  { name: "Instagram", icon: "icons/instagramlogo.svg", link: "https://www.instagram.com/saravanakumarvignesh/" }, 
+  { name: "LinkedIn", icon: "icons/linkedinlogo.svg", link: "https://www.linkedin.com/in/vignesh-saravanakumar-435378240/" }, 
+  { name: "GitHub", icon: "icons/githublogo.svg", link: "https://github.com/vigneshsaravanakumar404" }, 
+  { name: "Email", icon: "icons/email.svg", link: "mailto: vignesh.saravanakumar.vs@gmail.com" }
+];
+
+
+export { courses, experiences, projects, socials };

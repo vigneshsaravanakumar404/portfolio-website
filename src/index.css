@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global styles */
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +20,7 @@
   display: block;
 }
 
+/* Gradient styles */
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -203,14 +205,25 @@
   }
 }
 
+/* 404 page Styling */
 .fourofourcenter{
   width: 50vw;
   height: 50vh;
   position: absolute;
   margin: 25vh 0 0 25vw;
   font-size: 3.6vw;
-  color:white;
+  color: #050816;
 }
+
+/* Footer styles */
+footer {
+  background-color: #050816;
+  text-align: center; 
+  margin-top: auto;
+  padding: 8px;
+}
+
+
 
 /* Scrollbar styles */
 ::-webkit-scrollbar-track {
