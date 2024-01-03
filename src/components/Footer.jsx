@@ -6,7 +6,8 @@ import { copyright } from "../constants";
  * @returns {JSX.Element} The rendered Footer component.
  */
 const Footer = () => {
-    const year = new Date().getFullYear();
+    s
+
 
     return (
         <footer>
