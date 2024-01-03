@@ -25,7 +25,7 @@ const Resume = () => {
                 <section className={`relative w-full h-screen mx-auto flex flex-col items-center justify-center`}>
                     <div className="flex mb-4">
                         <div title="Open" className="h-14 w-14 bg-dark-gray rounded-md flex justify-center items-center hover:bg-slate-600">
-                            <a href={ PDFViewerURL } target="_blank">
+                            <a href={PDFViewerURL} target="_blank">
                                 <div className="relative h-10 w-10">
                                     <div>
                                         <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="w-full h-full" xmlns="http://www.w3.org/2000/svg" style={{ color: 'white' }}>

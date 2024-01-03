@@ -25,7 +25,7 @@ const App = () => {
         <StarsCanvas />
       </div>
       <div>
-      <EarthCanvas />
+        <EarthCanvas />
       </div>
       <Footer />
     </div>
