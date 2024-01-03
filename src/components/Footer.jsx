@@ -23,7 +23,7 @@ const Footer = () => {
                             <img
                                 src={social.icon}
                                 alt={social.name}
-                                className='h-12 w-12'
+                                className='h-12 w-12 hover:brightness-50 transition-all'
                                 onClick={() => {
                                     window.open(social.link, "_blank");
                                 }}
