@@ -6,7 +6,7 @@ import { copyright } from "../constants";
  * @returns {JSX.Element} The rendered Footer component.
  */
 const Footer = () => {
-    s
+    
 
 
     return (
@@ -24,11 +24,12 @@ const Footer = () => {
                             <img
                                 src={social.icon}
                                 alt={social.name}
-                                className='h-12 w-12 hover:brightness-50 transition-all'
+                                className='h-12 w-12 hover:brightness-50 hover:scale-110 transition-all'
                                 onClick={() => {
                                     window.open(social.link, "_blank");
                                 }}
                             />
+
                         </a>
                     </div>
                 ))}

@@ -1,4 +1,4 @@
-import { About, Experience, Hero, Navbar, Works, StarsCanvas, Footer, EarthCanvas } from "./components";
+import { About, Experience, Hero, HomeNavbar, Works, StarsCanvas, Footer, EarthCanvas } from "./components";
 import React, { useEffect } from 'react';
 
 /**
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className='relative z-0 bg-primary'>
       <div className='bg-cover bg-no-repeat bg-center'>
-        <Navbar />
+        <HomeNavbar />
         <Hero />
       </div>
       <About />

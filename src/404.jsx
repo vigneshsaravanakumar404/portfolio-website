@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import "./index.css";
-import { Navbar, Footer } from "./components";
+import { HomeNavbar, Footer } from "./components";
 
 //TODO: replace navbar so it actually works
 
@@ -28,7 +28,7 @@ const Fourofour = () => {
   return (
     <div className='relative z-0 bg-primary'>
       <div className='bg-cover bg-no-repeat bg-center'>
-        <Navbar />
+        <HomeNavbar />
         <NotFound />
       </div>
       <Footer />

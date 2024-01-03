@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./index.css";
-import { Footer, Navbar } from "./components";
+import { Footer, ResumeNavbar } from "./components";
 import { resumePath, PDFViewerURL } from "./constants";
 
 /**
@@ -18,7 +18,7 @@ const Resume = () => {
     return (
         <div className='relative z-0 bg-primary'>
             <div className='bg-cover bg-no-repeat bg-center'>
-                <Navbar />
+                <ResumeNavbar />
                 <div className='flex flex-col items-center justify-center' style={{ paddingTop: '75px' }}>
                     <h1 className='text-5xl font-bold text-white' style={{ color: '#02D260' }}>Resume</h1>
                 </div>

@@ -113,11 +113,11 @@ const projects = [
 ];
 
 const socials = [
-  { name: "Instagram", icon: "icons/instagramcolor.svg", link: "https://www.instagram.com/saravanakumarvignesh/" },
   { name: "LinkedIn", icon: "icons/linkedincolor.svg", link: "https://www.linkedin.com/in/vignesh-saravanakumar-435378240/" },
   { name: "GitHub", icon: "icons/githublogo.svg", link: "https://github.com/vigneshsaravanakumar404" },
   { name: "Email", icon: "icons/emailcolor.svg", link: "mailto:vignesh.saravanakumar.vs@gmail.com" },
-  { name: "Chess", icon: "icons/chess-com.svg", link: "https://www.chess.com/member/vigneshsaravanakumar" }
+  { name: "Chess", icon: "icons/chess-com.svg", link: "https://www.chess.com/member/vigneshsaravanakumar" },
+  { name: "Instagram", icon: "icons/instagramcolor.svg", link: "https://www.instagram.com/saravanakumarvignesh/" }
 ];
 
 const description = `I'm a high school student from New Jersey.
