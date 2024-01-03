@@ -113,13 +113,19 @@ const projects = [
 ];
 
 const socials = [
-  { name: "Instagram", icon: "icons/instagramlogo.svg", link: "https://www.instagram.com/saravanakumarvignesh/" },
-  { name: "LinkedIn", icon: "icons/linkedinlogo.svg", link: "https://www.linkedin.com/in/vignesh-saravanakumar-435378240/" },
+  { name: "Instagram", icon: "icons/instagramcolor.svg", link: "https://www.instagram.com/saravanakumarvignesh/" },
+  { name: "LinkedIn", icon: "icons/linkedincolor.svg", link: "https://www.linkedin.com/in/vignesh-saravanakumar-435378240/" },
   { name: "GitHub", icon: "icons/githublogo.svg", link: "https://github.com/vigneshsaravanakumar404" },
-  { name: "Email", icon: "icons/email.svg", link: "mailto: vignesh.saravanakumar.vs@gmail.com" }
+  { name: "Email", icon: "icons/emailcolor.svg", link: "mailto: vignesh.saravanakumar.vs@gmail.com" },
+  { name: "Chess", icon: "icons/chess-com.svg", link: "https://www.chess.com/member/vigneshsaravanakumar" }
 ];
 
-const description = "I'm a high school student from New Jersey. I'm passionate about programming and I love to learn new things. I mostly code in Python and Java but I'm always open to learning new languages. This website is my attempt at learning React and Three.js.";
+const description = `I'm a high school student from New Jersey.
+                     I'm passionate about programming and I love to learn new things. 
+                     In my free time I love to play Chess and video games.
+                     I mostly code in Python and Java but I'm always open to learning new languages. 
+                     This website is my attempt at learning React and Three.js.`;
+
 const resumePath = "/assets/[Vignesh] Resume.pdf";
 const PDFViewerURL = "/resume/Resume.pdf";
 const taglines = { one: "I'm an aspiring programmer", two: "from New Jersey." };
