@@ -1,5 +1,14 @@
-import { About, Experience, Hero, HomeNavbar, Works, StarsCanvas, Footer, EarthCanvas } from "./components";
-import React, { useEffect } from 'react';
+import {
+  About,
+  Experience,
+  Hero,
+  HomeNavbar,
+  Works,
+  StarsCanvas,
+  Footer,
+  EarthCanvas,
+} from "./components";
+import React, { useEffect } from "react";
 
 /**
  * The main component of the portfolio website.
@@ -7,21 +16,20 @@ import React, { useEffect } from 'react';
  * @returns {JSX.Element} The rendered App component.
  */
 const App = () => {
-
   useEffect(() => {
     document.title = "Vignesh | Portfolio";
   }, []);
 
   return (
-    <div className='relative z-0 bg-primary'>
-      <div className='bg-cover bg-no-repeat bg-center'>
+    <div className="relative z-0 bg-primary">
+      <div className="bg-cover bg-no-repeat bg-center">
         <HomeNavbar />
         <Hero />
       </div>
       <About />
       <Experience />
       <Works />
-      <div className='relative z-0'>
+      <div className="relative z-0">
         <StarsCanvas />
       </div>
       <div>
@@ -30,6 +38,6 @@ const App = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

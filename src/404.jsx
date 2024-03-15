@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import "./index.css";
 import { HomeNavbar, Footer } from "./components";
 
@@ -15,7 +15,6 @@ const NotFound = () => {
   );
 };
 
-
 /**
  * Renders the 404 page component.
  * @returns {JSX.Element} The 404 page component.
@@ -26,8 +25,8 @@ const Fourofour = () => {
   }, []);
 
   return (
-    <div className='relative z-0 bg-primary'>
-      <div className='bg-cover bg-no-repeat bg-center'>
+    <div className="relative z-0 bg-primary">
+      <div className="bg-cover bg-no-repeat bg-center">
         <HomeNavbar />
         <NotFound />
       </div>

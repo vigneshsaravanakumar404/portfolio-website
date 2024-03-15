@@ -7,8 +7,6 @@ import { courses, description } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-
-
 //TODO: Tooltips for skills, tools, instiutions, etc.
 //TODO: Improve color scheme for Course Cards
 
@@ -25,28 +23,40 @@ import { fadeIn, textVariant } from "../utils/motion";
  * @returns {JSX.Element} The CourseCard component.
  */
 const CourseCard = ({ index, courseName, description, icon, skills_icons }) => (
-  <Tilt className='lg:w-1/3 md:w-1/2 sm:w-full px-2 my-2'>
+  <Tilt className="lg:w-1/3 md:w-1/2 sm:w-full px-2 my-2">
     <motion.div
       variants={fadeIn("up", "easeInOut", index * 0.3, 1)}
-      className='p-[2px] rounded-[15px] shadow-lg'
-      style={{ background: 'linear-gradient(135deg, #0F9B0F 0%, #012F2D 100%)' }}
+      className="p-[2px] rounded-[15px] shadow-lg"
+      style={{
+        background: "linear-gradient(135deg, #0F9B0F 0%, #012F2D 100%)",
+      }}
     >
-      <div className='bg-[#012F2D] rounded-[15px] py-6 px-8 min-h-[350px] flex flex-col justify-between'>
-        <div className='flex items-center space-x-4'>
-          <img src={icon} alt={courseName} className='w-12 h-12 object-contain' />
-          <h3 className='text-[#01FF70] text-[22px] font-semibold'>{courseName}</h3>
+      <div className="bg-[#012F2D] rounded-[15px] py-6 px-8 min-h-[350px] flex flex-col justify-between">
+        <div className="flex items-center space-x-4">
+          <img
+            src={icon}
+            alt={courseName}
+            className="w-12 h-12 object-contain"
+          />
+          <h3 className="text-[#01FF70] text-[22px] font-semibold">
+            {courseName}
+          </h3>
         </div>
-        <p className='text-[#DAF7A6] text-[16px] mt-4'>{description}</p>
-        <div className='flex flex-wrap gap-2 mt-4'>
+        <p className="text-[#DAF7A6] text-[16px] mt-4">{description}</p>
+        <div className="flex flex-wrap gap-2 mt-4">
           {skills_icons.map((skillIcon, i) => (
-            <img key={i} src={skillIcon} alt="Skill Icon" className='w-12 h-12 object-contain' />
+            <img
+              key={i}
+              src={skillIcon}
+              alt="Skill Icon"
+              className="w-12 h-12 object-contain"
+            />
           ))}
         </div>
       </div>
     </motion.div>
   </Tilt>
 );
-
 
 /**
  * Renders the About component.
@@ -64,7 +74,7 @@ const About = () => {
       {/* Description */}
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         {description}
       </motion.p>
@@ -72,12 +82,11 @@ const About = () => {
       {/* Courses */}
       <motion.div variants={textVariant()}>
         <h3 className={styles.sectionHeadText}>Courses</h3>
-        <p
-          className='mt-4 text-secondary'
-        >
-          Hello</p>
+        <p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+          Here are the courses I have taken in a formal, academic enviornment.{" "}
+        </p>
       </motion.div>
-      <div className='flex flex-wrap justify-center mt-5'>
+      <div className="flex flex-wrap justify-center mt-5">
         {courses.map((course, index) => (
           <CourseCard
             key={course.id}
@@ -90,12 +99,10 @@ const About = () => {
         ))}
       </div>
 
-
       {/* //TODO: Skills */}
       <motion.div variants={textVariant()}>
         <h6 className={styles.sectionHeadText}>Skills</h6>
       </motion.div>
-
     </>
   );
 };

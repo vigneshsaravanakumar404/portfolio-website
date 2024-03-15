@@ -19,8 +19,8 @@ const styles = {
 const gradients = {
   GreenBlue: "from-green-400 to-blue-500",
   WebDevelopment: "from-purple-400 to-pink-500",
-  background: 'radial-gradient(circle, rgba(47, 253, 0, 1) 0%, rgba(0, 0, 0, 1) 100%)'
+  background:
+    "radial-gradient(circle, rgba(47, 253, 0, 1) 0%, rgba(0, 0, 0, 1) 100%)",
 };
-
 
 export { styles, gradients };
