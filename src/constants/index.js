@@ -118,7 +118,7 @@ const experiences = [
     title: "Vex Robotics Team, South Brunswick High School",
     company_name: "750Royals - South Brunswick High School",
     icon: "750R.png",
-    iconBg: "#858585",
+    iconBg: "#020303",
     date: "September 2022 - September 2023",
     points: [
       "Conducted research on “The computational complexity of Fischer Random chess”  under the mentorship of  Jesse Stern, a doctoral candidate at the University of Chicago in the field of theoretical computer science",
@@ -130,8 +130,8 @@ const experiences = [
   {
     title: "Volunteer Teacher",
     company_name: "Sevalaya",
-    icon: "src/assets/Sevalaya.png", //TODO: Add the icon
-    iconBg: "#f5f5f5", //TODO: Add the icon
+    icon: "Sevalaya.png",
+    iconBg: "#5CA137",
     date: "September 2021 - June 2023",
     points: [
       "Volunteered over 80 hours leading classes for underprivileged children in Tamil Nadu, India",
@@ -142,8 +142,8 @@ const experiences = [
   {
     title: "C Curriculum developer and Volunteer Teacher",
     company_name: "Code 4 Tomorrow",
-    icon: "src/assets/Code4Tomorrow.png",
-    iconBg: "#f5f5f5",
+    icon: "c4t.png",
+    iconBg: "#37DCE6",
     date: "Sep 2022 - Dec 2023",
     points: [
       "Volunteered over 80 hours leading lectures",
