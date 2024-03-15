@@ -89,7 +89,7 @@ const experiences = [
   {
     title: "Web Developer & Summer Analyst",
     company_name: "Lightpost Energy",
-    icon: "src/assets/LightPostLogo.png",
+    icon: "LightPostLogo.png",
     iconBg: "#f5f5f5",
     date: "June 2024 - September 2024",
     points: [
@@ -104,7 +104,7 @@ const experiences = [
   {
     title: "Theoretical Computer Science Research Intern",
     company_name: "Jesse Stern - Uchicago",
-    icon: "src/assets/Uchicago.png",
+    icon: "Uchicago.png",
     iconBg: "#f5f5f5",
     date: "September 2022 - September 2023",
     points: [
@@ -117,7 +117,7 @@ const experiences = [
   {
     title: "Vex Robotics Team, South Brunswick High School",
     company_name: "750Royals - South Brunswick High School",
-    icon: "src/assets/750R.png",
+    icon: "750R.png",
     iconBg: "#858585",
     date: "September 2022 - September 2023",
     points: [
