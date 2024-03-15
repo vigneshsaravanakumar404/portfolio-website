@@ -7,6 +7,10 @@ export const navLinks = [
     id: "work",
     title: "Experiences",
   },
+  {
+    id: "projects",
+    title: "Projects",
+  }
 ];
 
 const courses = [
