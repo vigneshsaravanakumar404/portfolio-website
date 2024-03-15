@@ -154,30 +154,100 @@ const experiences = [
   },
 ];
 
+/*
+C:\Users\Vigne\OneDrive\Documents\Programing Master\Websites\portfolio-website\public\DesmosProject.png
+
+
+*/
 const projects = [
   {
     name: "Portfolio Website",
     description:
-      "non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "This is my personal portfolio website housing projects, experience and skills. I built this website using React and Tailwind CSS. I also used Three.js for the 3D animations.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
         icon: "icons/React-Dark.svg",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
         icon: "icons/MongoDB-Dark.svg",
       },
       {
-        name: "tailwind",
+        name: "js",
         color: "pink-text-gradient",
         icon: "icons/Tailwind-Dark.svg",
       },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+        icon: "icons/Three-Dark.svg",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+        icon: "icons/Three-Dark.svg",
+      },
     ],
-    image: "icons/CSS.svg",
-    source_code_link: "https://github.com/",
+    image: "portfolioWebsiteProject.png",
+    source_code_link:
+      "https://www.google.com/url?q=https://github.com/vigneshsaravanakumar404/portfolio-website&sa=D&source=docs&ust=1710470873541583&usg=AOvVaw3Fx1eeX9QvR-10vinpvVXJ",
+  },
+  {
+    name: "Image To Equations",
+    description:
+      "Converts an image into a set of equations using Python, Edge Detection AI and Desmos API. The user can then visualize the equations on Desmos. 2k + views on YouTube.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+        icon: "icons/Python-Dark.svg",
+      },
+      {
+        name: "AI",
+        color: "pink-text-gradient",
+        icon: "icons/SVG-Dark.svg",
+      },
+      {
+        name: "svg",
+        color: "green-text-gradient",
+        icon: "icons/SVG-Dark.svg",
+      },
+    ],
+    image: "DesmosProject.png",
+    source_code_link:
+      "https://github.com/vigneshsaravanakumar404/ImageToEquations",
+  },
+  {
+    name: "Broke Me Not",
+    description:
+      "Worlds Oldest Colligiate Hackathon Winner (Upenn - PennApps) in the web dev category out of 300+ participants. Created a college financial literacy app.", // Leaving description blank as requested
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+        icon: "icons/HTML-Dark.svg",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+        icon: "icons/CSS-Dark.svg",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+        icon: "icons/JS-Dark.svg",
+      },
+      {
+        name: "python",
+        color: "blue-text-gradient",
+        icon: "icons/Python-Dark.svg",
+      },
+    ],
+    image: "PennAppsProject.png",
+    source_code_link: "https://github.com/vigneshsaravanakumar404/PennApps",
   },
 ];
 
