@@ -1,16 +1,16 @@
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
-  },
-  {
     id: "work",
     title: "Experiences",
   },
   {
     id: "projects",
     title: "Projects",
-  }
+  },
+  {
+    id: "about",
+    title: "About",
+  },
 ];
 
 const courses = [
@@ -158,11 +158,6 @@ const experiences = [
   },
 ];
 
-/*
-C:\Users\Vigne\OneDrive\Documents\Programing Master\Websites\portfolio-website\public\DesmosProject.png
-
-
-*/
 const projects = [
   {
     name: "Portfolio Website",
@@ -252,6 +247,95 @@ const projects = [
     ],
     image: "PennAppsProject.png",
     source_code_link: "https://github.com/vigneshsaravanakumar404/PennApps",
+  },
+  {
+    name: "Uber Global Hackathon",
+    description:
+      "Reached Global Finals out of 700+ participants. Optimized traffic for a hypothetical city using Algorithms",
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+        icon: "icons/C#-Dark.svg",
+      },
+      {
+        name: "Flask",
+        color: "green-text-gradient",
+        icon: "icons/Flask-Dark.svg",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+        icon: "icons/Python-Dark.svg",
+      },
+    ],
+    image: "UberProject.png",
+    source_code_link:
+      "https://github.com/vigneshsaravanakumar404/Uber-Hackathon?tab=readme-ov-file",
+  },
+  {
+    name: "Pong",
+    description:
+      "Recreation of Atari's Pong game using Java and Android Studios. Tilt your phone to move the paddle.",
+    tags: [
+      {
+        name: "Android Studios",
+        color: "blue-text-gradient",
+        icon: "icons/Android-Dark.svg",
+      },
+      {
+        name: "Java",
+        color: "pink-text-gradient",
+        icon: "icons/Java-Dark.svg",
+      },
+    ],
+    image: "PongProject.png",
+    source_code_link: "https://github.com/vigneshsaravanakumar404/Pong",
+  },
+  {
+    name: "Enviornmental Chemistry",
+    description:
+      "Won 3rd place a NJIT's Chemistry Olympics. Created an enviornmental chemistry website using HTML, CSS and JS.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+        icon: "icons/HTML-Dark.svg",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+        icon: "icons/CSS-Dark.svg",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+        icon: "icons/JS-Dark.svg",
+      },
+    ],
+    image: "ChemistryOlympicsProject.png",
+    source_code_link:
+      "https://github.com/vigneshsaravanakumar404/Chemistry-Olympics-Website",
+  },
+  {
+    name: "Text Messaging App",
+    description:
+      "Chat with GPT-3 using textmessage on android. Created using Java and Android Studios.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+        icon: "icons/Java-Dark.svg",
+      },
+      {
+        name: "Android Studios",
+        color: "pink-text-gradient",
+        icon: "icons/Android-Dark.svg",
+      },
+    ],
+    image: "TextMessagingAppProject.png",
+    source_code_link:
+      "https://github.com/vigneshsaravanakumar404/Text-Messaging-App",
   },
 ];
 
