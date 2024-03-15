@@ -99,15 +99,15 @@ const About = () => {
         ))}
       </div>
 
-      {/* //TODO: Skills */}
+      {/* //TODO: Skills
       <motion.div variants={textVariant()}>
         <h6 className={styles.sectionHeadText}>Skills</h6>
       </motion.div>
 
-      {/* //TODO: Awards */}
+      //TODO: Awards
       <motion.div variants={textVariant()}>
         <h6 className={styles.sectionHeadText}>Awards</h6>
-      </motion.div>
+      </motion.div> */}
     </>
   );
 };
